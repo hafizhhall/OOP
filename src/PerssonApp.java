@@ -10,10 +10,11 @@ public class PerssonApp {
 
         person1.sayHello("Athallah");
 
-        Person person2 = new Person("Santika","Tegal");
+        Person person2 = new Person("Santika");
 
         Person person3;
-        person3 = new Person("Jajuli","Bintan");
+        person3 = new Person();
+        person3.name = "Jajuli";
         person3.sayHello("Bari");
     }
 }

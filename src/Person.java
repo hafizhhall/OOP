@@ -7,6 +7,13 @@ class Person {
         address = paramAddress;
     }
 
+    Person(String paramNama){
+        this(paramNama, null);
+    }
+    Person(){
+        this(null);
+    }
+
     void sayHello(String paramName){
         System.out.println("Hello "+ paramName + ", My Name is " + name);
     }
